@@ -211,13 +211,11 @@ __marimo__/
 # --------------------------------------------------
 
 # Datasets (usually large – keep out of Git)
-data/
 datasets/
 data_raw/
 data_processed/
 
 # Optional: ignore dataset file formats if they are large
-*.csv
 *.tsv
 *.parquet
 *.feather
@@ -228,10 +226,8 @@ data_processed/
 *.tar.gz
 
 # Trained Models
-models/
 checkpoints/
 
-*.pkl
 *.joblib
 *.model
 *.h5
