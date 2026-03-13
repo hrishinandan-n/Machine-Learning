@@ -205,3 +205,57 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --------------------------------------------------
+# Machine Learning / Data Science
+# --------------------------------------------------
+
+# Datasets (usually large – keep out of Git)
+data/
+datasets/
+data_raw/
+data_processed/
+
+# Optional: ignore dataset file formats if they are large
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.hdf
+*.hdf5
+*.zip
+*.tar
+*.tar.gz
+
+# Trained Models
+models/
+checkpoints/
+
+*.pkl
+*.joblib
+*.model
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Experiment Tracking / Logs
+mlruns/
+wandb/
+tensorboard_logs/
+runs/
+logs/
+
+# Temporary Training Files
+tmp/
+temp/
+*.tmp
+
+
+# Notebook Artifacts
+*.nbconvert.ipynb
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
